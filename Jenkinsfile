@@ -20,7 +20,9 @@ pipeline {
             steps {
                 echo 'Testing...'
                 sh 'npm test'
+                sh 'docker stop'
                 sh 'cd /home/yliu'
+                sh 'ls'
             }
         }
     }
