@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('node express angular and mongodb');
+  res.send('node app');
 });
 
 module.exports = router;
