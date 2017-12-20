@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'angular' });
+  res.render('index', { title: 'node express angular mongodb' });
 });
 
 module.exports = router;
